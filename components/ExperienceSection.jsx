@@ -88,7 +88,7 @@ const ExperienceSection = () => {
                 </div>
               </div>
               <div className="md:w-1/3 sm:mt-3">
-                <Link href="https://shellbeehaken.com/">
+                <Link href="https://shellbeehaken.com/" target="_blank">
                   <Image
                     src="/shellbeehaken.jpeg"
                     alt=""
@@ -145,25 +145,18 @@ const ExperienceSection = () => {
 
                           <div className="display-flex flex-column full-width align-self-center">
                             <div className="display-flex flex-row justify-space-between">
-                              <a
-                                className="optional-action-target-wrapper display-flex flex-column full-width"
-                                target="_self"
-                                href="https://www.linkedin.com/company/13467190/"
-                              >
-                                <div className="display-flex align-items-center">
-                                  <span className="mr-2 text-semibold text-xl">
-                                    <span aria-hidden="true">
-                                      Sr. Software Engineer
-                                    </span>
-                                  </span>
-                                </div>
-                                <div className="text-[16px] text-normal text-slate-500">
+                              <div className="display-flex align-items-center">
+                                <span className="mr-2 text-semibold text-xl">
                                   <span aria-hidden="true">
-                                    Jan 2022 - Jan 2023 · 1 yr 1 mo
+                                    Sr. Software Engineer
                                   </span>
-                                </div>
-                              </a>
-
+                                </span>
+                              </div>
+                              <div className="text-[16px] text-normal text-slate-500">
+                                <span aria-hidden="true">
+                                  Jan 2022 - Jan 2023 · 1 yr 1 mo
+                                </span>
+                              </div>
                               <div className="pvs-entity__action-container"></div>
                             </div>
 
@@ -174,7 +167,7 @@ const ExperienceSection = () => {
                                     <ul className="pvs-list">
                                       <li className="pvs-list__item--with-top-padding ">
                                         <div className="display-flex ">
-                                          <div lassName="display-flex full-width">
+                                          <div className="display-flex full-width">
                                             <div className="pv-shared-text-with-see-more full-width text-[14px] text-normal t-black display-flex align-items-center">
                                               <div
                                                 className="line-height[1.9rem] max-height[3.8rem] inline-show-more-text inline-show-more-text--is-collapsed full-width"
@@ -219,24 +212,18 @@ const ExperienceSection = () => {
 
                           <div className="display-flex flex-column full-width align-self-center">
                             <div className="display-flex flex-row justify-space-between">
-                              <a
-                                className="optional-action-target-wrapper display-flex flex-column full-width"
-                                target="_self"
-                                href="https://www.linkedin.com/company/13467190/"
-                              >
-                                <div className="display-flex items-center">
-                                  <div className="mr-2 text-semibold">
-                                    <span aria-hidden="true">
-                                      Software Engineer
-                                    </span>
-                                  </div>
-                                </div>
-                                <div className="text-[16px] text-normal text-slate-500">
+                              <div className="display-flex items-center">
+                                <div className="mr-2 text-semibold">
                                   <span aria-hidden="true">
-                                    Jul 2020 - Dec 2021 · 1 yr 6 mos
+                                    Software Engineer
                                   </span>
                                 </div>
-                              </a>
+                              </div>
+                              <div className="text-[16px] text-normal text-slate-500">
+                                <span aria-hidden="true">
+                                  Jul 2020 - Dec 2021 · 1 yr 6 mos
+                                </span>
+                              </div>
 
                               <div className="pvs-entity__action-container"></div>
                             </div>
@@ -293,24 +280,18 @@ const ExperienceSection = () => {
 
                           <div className="display-flex flex-column full-width align-self-center">
                             <div className="display-flex flex-row justify-space-between">
-                              <a
-                                className="optional-action-target-wrapper display-flex flex-column full-width"
-                                target="_self"
-                                href="https://www.linkedin.com/company/13467190/"
-                              >
-                                <div className="display-flex items-center">
-                                  <div className="mr-2 text-semibold">
-                                    <span aria-hidden="true">
-                                      Jr. Software Engineer
-                                    </span>
-                                  </div>
-                                </div>
-                                <div className="text-[16px] text-slate-500">
+                              <div className="display-flex items-center">
+                                <div className="mr-2 text-semibold">
                                   <span aria-hidden="true">
-                                    Apr 2019 - Jun 2020 · 1 yr 3 mos
+                                    Jr. Software Engineer
                                   </span>
                                 </div>
-                              </a>
+                              </div>
+                              <div className="text-[16px] text-slate-500">
+                                <span aria-hidden="true">
+                                  Apr 2019 - Jun 2020 · 1 yr 3 mos
+                                </span>
+                              </div>
 
                               <div className="pvs-entity__action-container"></div>
                             </div>
@@ -322,7 +303,7 @@ const ExperienceSection = () => {
                 </div>
               </div>
               <div className="md:w-1/3 sm:mt-5">
-                <Link href="https://entertechbd.com/">
+                <Link href="https://entertechbd.com/" target="_blank">
                   <Image
                     src="/entertech.jpeg"
                     alt=""
